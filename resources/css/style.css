@@ -161,3 +161,47 @@ button {
 .guest {
   background-color: #d8d8d8;
 }
+
+/* Start learning */
+
+.learning {
+  display: flex;
+  flex-direction: column;
+  margin-top: 64px;
+  background-color: #d8d8d8;
+  align-items: center;
+  width: 100%;
+}
+
+.learning h1 {
+  padding-top: 32px;
+  color: #595959;
+  }
+
+.course_gallery {
+  display: flex;
+  flex-direction: row;
+  padding-left: 72px;
+  padding-right: 72px;
+  padding-bottom: 32px;
+  color: #595959;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.courses {
+  background-color: #ffffff;
+  margin: 32px;
+  padding-bottom: 24px;
+  width: 300px;
+  height: 335px;
+}
+
+.courses img {
+  width: 100%;
+}
+
+.courses h2, p {
+  padding-left: 16px;
+}
