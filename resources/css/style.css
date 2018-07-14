@@ -38,12 +38,32 @@ nav img {
   padding-left: 0;
 }
 
-#icons {
-  display: none;
-}
-
 #options {
   padding-left: 16px;
+}
+
+@media only screen and (min-width: 600px) {
+
+  #icons {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+
+  #icons {
+    align-self: center;
+    padding-left: 75px;
+    padding-top: 15px;
+  }
+
+  #options {
+    display: none;
+  }
+
+  .logotext {
+    display: none;
+  }
 }
 
 /* Banner */
@@ -280,6 +300,8 @@ footer {
   height: 64px;
   border-top: solid #d8d8d8 1px;
   padding-top: 16px;
+  font-size: 14px;
+  color: #595959;
 }
 
 .footer_left {
