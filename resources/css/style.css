@@ -2,19 +2,21 @@ html {
   font-family: Poppins, sans-serif;
   background-color: #ffffff;
   width: 100%;
-  height: auto;
-  margin: 0;
 }
+
+/* Navigation */
 
 nav {
   display: flex;
   flex-direction: row;
+  margin-top: 0;
   height: 64px;
   width: 100%;
-  margin-top: 0;
-  position: fixed;
-  z-index: 1;
   background-color: #ffffff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
 }
 
 nav img {
@@ -27,7 +29,6 @@ nav img {
 }
 
 .navtext {
-  align-self: center;
   float: right;
 }
 
@@ -42,4 +43,36 @@ nav img {
 
 #options {
   padding-left: 16px;
+}
+
+/* Banner */
+
+.banner {
+  display: flex;
+  flex-direction: row;
+  margin-top: 64px;
+  background-color: #d8d8d8;
+}
+
+.banner img {
+  width: 60%;
+  height: 90%;
+  padding: 32px 24px;
+}
+
+.bannertext {
+  display: flex;
+  flex-direction: column;
+  color: #595959;
+  align-self: center;
+}
+
+button {
+  background-color: #595959;
+  height: 40px;
+  width: 64px;
+  width: auto;
+  font-family: Poppins, sans-serif;
+  color: #ffffff;
+  font-size: 16px;
 }
