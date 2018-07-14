@@ -1,0 +1,45 @@
+html {
+  font-family: Poppins, sans-serif;
+  background-color: #ffffff;
+  width: 100%;
+  height: auto;
+  margin: 0;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  height: 64px;
+  width: 100%;
+  margin-top: 0;
+  position: fixed;
+  z-index: 1;
+  background-color: #ffffff;
+}
+
+nav img {
+  align-self: center;
+  padding-left: 24px;
+}
+
+.logotext {
+  align-self: center;
+}
+
+.navtext {
+  align-self: center;
+  float: right;
+}
+
+.academy {
+  color: #d8d8d8;
+  padding-left: 0;
+}
+
+#icons {
+  visibility: hidden;
+}
+
+#options {
+  padding-left: 16px;
+}
