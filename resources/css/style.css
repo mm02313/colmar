@@ -17,6 +17,7 @@ nav {
   top: 0;
   left: 0;
   z-index: 9999;
+  box-shadow: 5px 5px 5px #595959;
 }
 
 nav img {
@@ -38,7 +39,7 @@ nav img {
 }
 
 #icons {
-  visibility: hidden;
+  display: none;
 }
 
 #options {
@@ -75,4 +76,88 @@ button {
   font-family: Poppins, sans-serif;
   color: #ffffff;
   font-size: 16px;
+}
+
+/* Information */
+
+.information {
+  display: flex;
+  flex-direction: row;
+  background-color: #ffffff;
+}
+
+.testimonial {
+  width: 60%;
+  height: auto;
+  padding-left: 24px;
+}
+
+.testimonial img {
+  width: 100%;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.testimonial h1 {
+  color: #595959;
+  padding-bottom: 24px;
+}
+
+.testimonial p {
+  font-size: 15px;
+  color: #595959;
+}
+
+.testimonial span {
+  font-size: 12px;
+  font-weight: bold;
+  color: #595959;
+}
+
+.info_list {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  height: auto;
+  padding-left: 24px;
+  padding-top: 32px;
+}
+
+.info_list img {
+  width: 35%;
+  height: 35%;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.info_text {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  line-height: 8px;
+  color: #595959;
+}
+
+.info_text a {
+  color: #4285f4;
+}
+
+#guesttext {
+  line-height: 13px;
+}
+
+.info_mobile {
+  display: none;
+}
+
+.orientation, .campus, .guest {
+  display: flex;
+  flex-direction: row;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  border: solid #d8d8d8 1px;
+}
+
+.guest {
+  background-color: #d8d8d8;
 }
