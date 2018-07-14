@@ -202,6 +202,73 @@ button {
   width: 100%;
 }
 
-.courses h2, p {
+.courses h2, .courses p {
   padding-left: 16px;
 }
+
+/* Thesis Exhibit */
+.thesisheader {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #ffffff;
+  color: #595959;
+}
+
+
+.exhibit {
+  display: flex;
+  flex-direction: row;
+  background-color: #ffffff;
+  flex-shrink: 0;
+}
+
+.urban {
+  padding-left: 24px;
+  padding-right: 24px;
+  color: #595959;
+  width: 60%;
+}
+
+video {
+  width: 100%;
+  height: auto;
+  padding-top: 16px;
+  padding-right: 8px;
+}
+
+.thesis_list {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  height: auto;
+}
+
+.thesis_list img {
+  width: 200px;
+  height: 200px;
+  padding: 16px;
+}
+
+.fisma, .now {
+  display: flex;
+  flex-direction: row;
+  margin-left: 0;
+  color: #595959;
+}
+
+.thesistext {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  line-height: 8px;
+  color: #595959;
+  padding-left: 16px;
+  line-height: 20px;
+}
+
+.fisma {
+  background-color: #d8d8d8;
+}
+
+/* Footer */
