@@ -162,9 +162,9 @@ button {
   padding-top: 32px;
 }
 
-.info_list img {
-  width: 35%;
-  height: 35%;
+.desktop img {
+  width: 200px;
+  height: 200px;
   padding-left: 16px;
   padding-right: 16px;
 }
@@ -185,9 +185,6 @@ button {
   line-height: 13px;
 }
 
-.info_mobile {
-  display: none;
-}
 
 .orientation, .campus, .guest {
   display: flex;
@@ -199,6 +196,50 @@ button {
 
 .guest {
   background-color: #d8d8d8;
+}
+
+@media only screen and (min-width: 600px) {
+
+  .info_mobile img {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+
+.testimonial {
+  display: none;
+}
+
+.info_list {
+  padding: 0;
+}
+
+.orientation, .campus, .guest {
+  display: flex;
+  flex-direction: column;
+  border: solid #ffffff 0px;
+}
+
+.guest {
+  background-color: #ffffff;
+}
+
+.desktop img {
+  display: none;
+}
+
+.info_mobile img {
+  width: 500px;
+  height: auto;
+  padding: 0;
+}
+
+.info_text {
+  padding-left: 16px;
+  line-height: 17px;
+}
+
 }
 
 /* Start learning */
@@ -243,6 +284,12 @@ button {
 
 .courses h2, .courses p {
   padding-left: 16px;
+}
+
+@media only screen and (max-width: 600px) {
+
+
+  
 }
 
 /* Thesis Exhibit */
