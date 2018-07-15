@@ -377,6 +377,28 @@ video {
   background-color: #d8d8d8;
 }
 
+@media only screen and (max-width: 600px) {
+
+.urban {
+  padding: 0;
+}
+
+video {
+  width: 450px;
+  padding-bottom:24px;
+}
+
+.urban h3, .urban p {
+  display: none;
+}
+
+.thesis_list {
+  display: none;
+}
+
+}
+
+
 /* Footer */
 
 footer {
