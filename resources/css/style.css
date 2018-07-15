@@ -53,8 +53,8 @@ nav img {
 
   #icons {
     align-self: center;
-    padding-left: 75px;
-    padding-top: 15px;
+    padding-left: 100px;
+    padding-top: 20px;
   }
 
   #options {
@@ -422,4 +422,11 @@ footer {
 
 span {
   padding: 8px;
+}
+
+@media only screen and (max-width: 600px) {
+
+.footer_right {
+    display: none;
+  }
 }
