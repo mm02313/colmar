@@ -288,8 +288,27 @@ button {
 
 @media only screen and (max-width: 600px) {
 
+.learning {
+  background-color: #ffffff;
+  border-top: solid #d8d8d8 1px;
+}
 
-  
+.courses img {
+  display: none;
+}
+
+.courses {
+  background-color: #d8d8d8;
+  margin: 8px;
+  padding-bottom: 24px;
+  width: 300px;
+  height: 64px;
+}
+
+.courses p {
+  display: none;
+}
+
 }
 
 /* Thesis Exhibit */
